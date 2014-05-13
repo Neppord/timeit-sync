@@ -1,0 +1,28 @@
+{
+  "name": "timeit",
+  "version": "0.0.0",
+  "description": "times snipets of code for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Ytterbrink",
+  "license": "MIT",
+  "dependencies": {
+    "microtime": "~0.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Neppord/timeit.git"
+  },
+  "keywords": [
+    "time",
+    "timeit",
+    "profiling"
+  ],
+  "bugs": {
+    "url": "https://github.com/Neppord/timeit/issues"
+  },
+  "homepage": "https://github.com/Neppord/timeit"
+}
