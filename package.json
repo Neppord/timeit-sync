@@ -1,6 +1,6 @@
 {
-  "name": "timeit",
-  "version": "0.0.0",
+  "name": "timeit-sync",
+  "version": "0.0.1",
   "description": "times snipets of code for you",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/Neppord/timeit.git"
+    "url": "git://github.com/Neppord/timeit-sync.git"
   },
   "keywords": [
     "time",
@@ -22,7 +22,7 @@
     "profiling"
   ],
   "bugs": {
-    "url": "https://github.com/Neppord/timeit/issues"
+    "url": "https://github.com/Neppord/timeit-sync/issues"
   },
-  "homepage": "https://github.com/Neppord/timeit"
+  "homepage": "https://github.com/Neppord/timeit-sync"
 }
