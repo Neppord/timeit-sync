@@ -9,7 +9,7 @@
   "author": "Samuel Ytterbrink",
   "license": "MIT",
   "dependencies": {
-    "microtime": "~0.5.1"
+    "microwatch": "~0.1.2"
   },
   "devDependencies": {},
   "repository": {

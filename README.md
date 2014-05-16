@@ -6,5 +6,7 @@ timeit exposes one function timeit(func, iter=1000000, batch=100).
  * iter is the numer of iterations in a batch
  * batch is the number of batches to do
 
- it returns a list where the first element is the fastest batch,
- and the second one is the average of that run. 
+ Returns a list of the total runtime of each batch. It is adviced to use the min
+ of this list, or to look on it as a whole, not take the average.
+ 
+ a example exists int example.js

@@ -1,24 +1,25 @@
-var microtime = require('microtime')
+var Microwatch = require('microwatch')
 
 function batch(func, iterations) {
-  var start = microtime.nowStruct();
+  var watch = new Microwatch() 
+  watch.start();
   var loopvar = iterations;
   while (loopvar > 0) {
     func();
     loopvar--;
   }
-  var end = microtime.nowStruct()
-  return (end[0] -  start[0]) * 1000000 + (end[1] - start[1]);
+  return watch.now();
 }
 
 module.exports = function (func, iterations, batches) {
   iterations = iterations || 1000000;
   batches = batches || 100;
+  var res = [];
   var min = batch(func, iterations);
   batches --;
   while(batches > 0 ){
-    min = Math.min(batch(func, iterations), min);
+    res.push(batch(func, iterations));
     batches --;
   }
-  return [min, min / iterations];
+  return res;
 }
