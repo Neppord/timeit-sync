@@ -1,6 +1,6 @@
 {
   "name": "timeit-sync",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "times snipets of code for you",
   "main": "index.js",
   "scripts": {
